@@ -1,0 +1,351 @@
+body, h1, h2, h3, p{
+	margin: 0px;
+	
+}
+/* header-section start */
+.header-section{
+	width: 100%;
+	height: 100px;
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+	padding: 10px 0px;
+	height: 80px;
+	display: flex;
+}
+.logo-image{
+	flex: 1 1 100%; 
+	padding: 20px;
+	box-sizing: border-box;
+}
+.nav-section{
+	flex: 1 1 200%;
+}
+.nav-section ul{
+	display: flex;
+	flex-direction: row;
+	padding: 15px 0px;
+	
+}
+.nav-section li{
+	list-style: none;
+}
+.nav-section a{
+	font-family: Rubik, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #000;
+	text-decoration: none;
+	padding: 15px;
+}
+.nav-button{
+	flex: 1 1 100%;
+}
+.nav-button ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 15px 0px;
+}
+.nav-button li{
+	list-style: none;
+	margin-right: 15px;
+}
+.nav-button a{
+	font-family: Rubik, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 23px;
+	background: #DCF0E2;
+	color: #000;
+	text-decoration: none;
+	align-content: space-around;
+	padding: 15px 25px;
+	border: 0px solid ;
+	border-radius: 10px;
+}
+.nav-button a:hover{
+	background: #51B56D;
+	color: #fff;
+}
+.nav-button ul li:last-child a{
+	background: #51B56D;
+	color: #fff;
+}
+.nav-button ul li:last-child a:hover{
+	background: #3C8D53;
+	color: #fff;
+}
+/* header-section end */
+/* banner-section start */
+.banner-section{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding-top: 80px;
+	background: #FBFBFB;
+}
+.banner-content{
+	flex: 1 1 100%;
+}
+.banner-content h1{
+	color: #040404;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62.4px;
+	font-family: Rubik, sans-serif;
+	word-spacing: 3px;
+	padding: 20px 60px;
+	
+}
+.banner-content p{
+	color: #888888;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+	word-spacing: 5px;
+	padding: 15px 60px;
+	
+}
+.banner-content a{
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+	word-spacing: 5px;
+	padding: 13px 40px;
+	margin: 10px 60px;
+	background: #51B56D;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.banner-image{
+	flex: 1 1 100%;
+	padding-left: 100px;
+}
+/* banner-section end */
+/* service-section start */
+.service-section{
+	width: 80%;
+	height: 600px;
+	display: flex;
+	padding: 90px;
+	flex-direction: column;
+	margin: 0px auto;
+}
+.service-content1{
+	display: flex;
+	flex: 1 1 100%;
+	height: 500px;
+	
+}
+.service-content2{
+	display: flex;
+	flex: 1 1 100%;
+	height: 500px;
+}
+.our-service{
+	flex: 1 1 100%;
+	padding: 15px;
+}
+.our-service h3{
+	color: #51B56D;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+	padding-top: 30px;
+}
+.our-service h1{
+	color: #040404;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+	padding-top: 15px;
+}
+.our-service p{
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+	padding-top: 15px;
+}
+.personal-loans{
+	flex: 1 1 100%;
+	border: 1px solid #D1C9C9;
+	padding: 25px 20px;
+}
+.personal-loans h3
+:hover{
+	background: #00000000;
+	color: #51B56D;
+}
+.personal-loans span{
+	font-size: 24px;
+	font-weight: 700;
+	border-radius:5px;
+	padding: 22px 22px;
+	margin: 0px 0px 20px;
+	background: #917AEB33;
+	color: #917AEB;
+	line-height: 70px;
+}
+.personal-loans h3{
+	padding-top: 15px;
+	margin: 0px 0px 16px;
+	color: #040404;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+}
+.personal-loans p{
+	padding-top: 3px;
+	margin: 0px 0px 8px;
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+}
+.home-equality-loans{
+	flex: 1 1 100%;
+	padding: 25px 20px;
+	border: 1px solid #D1C9C9;
+}
+.home-equality-loans span{
+	font-size: 24px;
+	font-weight: 700;
+	border-radius:5px;
+	padding: 22px 22px;
+	margin: 0px 0px 20px;
+	background: #51B56D33;
+	color: #51B56D;
+	line-height: 70px;
+}
+.home-equality-loans h3{
+	padding-top: 15px;
+	margin: 0px 0px 16px;
+	color: #040404;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+}
+.home-equality-loans p{
+	padding-top: 3px;
+	margin: 0px 0px 8px;
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+}
+.student-loans{
+	flex: 1 1 100%;
+	padding: 25px 20px;
+	border: 1px solid #D1C9C9;
+	
+}
+.student-loans span{
+	font-size: 24px;
+	font-weight: 700;
+	border-radius:5px;
+	padding: 22px 22px;
+	margin: 0px 0px 20px;
+	background: #917AEB33;
+	color: #917AEB;
+	line-height: 70px;
+}
+.student-loans h3{
+	padding-top: 15px;
+	margin: 0px 0px 16px;
+	color: #040404;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+}
+.student-loans p{
+	padding-top: 3px;
+	margin: 0px 0px 8px;
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+}
+.mortgage-loans{
+	flex: 1 1 100%;
+	padding: 25px 20px;
+	border: 1px solid #D1C9C9;
+}
+.mortgage-loans span{
+	font-size: 24px;
+	font-weight: 700;
+	border-radius:5px;
+	padding: 22px 22px;
+	margin: 0px 0px 20px;
+	background: #51B56D33;
+	color: #51B56D;
+	line-height: 70px;
+}
+.mortgage-loans h3{
+	padding-top: 15px;
+	margin: 0px 0px 16px;
+	color: #040404;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+}
+.mortgage-loans p{
+	padding-top: 3px;
+	margin: 0px 0px 8px;
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+}
+.payday-loans{
+	flex: 1 1 100%;
+	padding: 25px 20px;
+	border: 1px solid #D1C9C9;
+}
+.payday-loans span{
+	font-size: 24px;
+	font-weight: 700;
+	border-radius:5px;
+	padding: 22px 22px;
+	margin: 0px 0px 20px;
+	background: #917AEB33;
+	color: #917AEB;
+	line-height: 70px;
+}
+.payday-loans h3{
+	padding-top: 15px;
+	margin: 0px 0px 16px;
+	color: #040404;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 52.8px;
+	font-family: Rubik, sans-serif;
+}
+.payday-loans p{
+	padding-top: 3px;
+	margin: 0px 0px 8px;
+	color: #888888;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 27.2px;
+	font-family: Rubik, sans-serif;
+}
+
+/* service-section end */
